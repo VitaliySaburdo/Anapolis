@@ -5,4 +5,9 @@ body {
   height: 100%;
   color: var(--main-text-cl);
   letter-spacing: normal;
+
+  background-repeat: no-repeat;
+  background-size: 1920px 1080px;
+  background-position: center top;
+  background-image: url(../../../images/hero/hero.jpg);
 }
