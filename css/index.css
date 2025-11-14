@@ -67,6 +67,7 @@ ol {
   /* Colors */
   /* Text */
   --main-text-cl: #ffffff;
+  --secondary-text-cl: #174a94;
   /* Background color */
   --blue-bgc-cl: #ffffff;
   --logo-bgc-cl: linear-gradient(214deg, #174a94 0%, #15386b 100%);
@@ -175,8 +176,10 @@ body {
 
 .nav__link {
   font-weight: 600;
-  font-size: 14px;
+  font-size: 13px;
   color: var(--secondary-text-cl);
+  line-height: 130%;
+  text-align: center;
 }
 
 .header__links {
