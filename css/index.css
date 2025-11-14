@@ -241,4 +241,14 @@ body {
 .hero__block {
   margin-left: 317px;
   height: 436px;
+}
+
+.hero__links-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+.hero__links-img {
+  position: relative;
 }/*# sourceMappingURL=index.css.map */

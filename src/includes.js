@@ -1,5 +1,5 @@
 document.querySelectorAll('[data-include]').forEach(async el => {
-  const file = `src/components/${el.getAttribute('data-include')}.html`;
+  const file = `src/partials/${el.getAttribute('data-include')}.html`;
 
   try {
     const response = await fetch(file);
