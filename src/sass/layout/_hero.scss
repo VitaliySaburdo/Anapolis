@@ -1,0 +1,26 @@
+.hero__links {
+  position: relative;
+  height: 715px;
+}
+
+.hero__links-item {
+  position: absolute;
+
+  &:nth-child(1) {
+    margin-top: 93px;
+    margin-left: 823px;
+  }
+  &:nth-child(2) {
+    margin-top: 321px;
+    margin-left: 244px;
+  }
+  &:nth-child(3) {
+    margin-top: 407px;
+    margin-left: 1295px;
+  }
+}
+
+.hero__block {
+  margin-left: 317px;
+  height: 436px;
+}
