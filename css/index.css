@@ -53,15 +53,15 @@ ol {
 
 :root {
   /* Font family */
-  --main-font-family: "SF Pro Display", sans-serif;
-  --second-family: "Spectral", sans-serif;
-  --third-family: "Suisse Intl", sans-serif;
-  --font3: "IBM Plex Serif", sans-serif;
-  --font4: "Spectral SC", sans-serif;
-  --font5: "Commissioner", sans-serif;
-  --font6: "Manrope", sans-serif;
-  --font7: "Jost", sans-serif;
-  --font8: "TT Norms", sans-serif;
+  --main-font-family: 'SF Pro Display', sans-serif;
+  --second-family: 'Spectral', sans-serif;
+  --third-family: 'Suisse Intl', sans-serif;
+  --font3: 'IBM Plex Serif', sans-serif;
+  --font4: 'Spectral SC', sans-serif;
+  --font5: 'Commissioner', sans-serif;
+  --font6: 'Manrope', sans-serif;
+  --font7: 'Jost', sans-serif;
+  --font8: 'TT Norms', sans-serif;
   /* Fonts size */
   --base-font-size: 16px;
   /* Colors */
@@ -86,15 +86,15 @@ ol {
 }
 
 @font-face {
-  font-family: "SF Pro Display";
-  src: url("../fonts/SF-Pro-Display-Regular.otf") format("opentype");
+  font-family: 'SF Pro Display';
+  src: url('../fonts/SF-Pro-Display-Regular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "SF Pro Display";
-  src: url("../fonts/SF-Pro-Display-Medium.otf") format("opentype");
+  font-family: 'SF Pro Display';
+  src: url('../fonts/SF-Pro-Display-Medium.otf') format('opentype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -107,8 +107,8 @@ body {
   color: var(--main-text-cl);
   letter-spacing: normal;
   background-repeat: no-repeat;
-  background-position: top;
-  background-size: auto;
+  background-size: 1920px 1080px;
+  background-position: center top;
   background-image: url(../../../images/hero/hero.jpg);
 }
 
@@ -128,7 +128,7 @@ body {
 }
 @media screen and (min-width: 1920px) {
   .container {
-    width: 1920px;
+    width: 1800px;
     padding-left: 60px;
     padding-right: 60px;
   }
@@ -149,7 +149,7 @@ body {
   padding-right: 26px;
   padding-left: 26px;
   -webkit-backdrop-filter: blur(30px);
-          backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
   background: var(--logo-bgc-cl);
 }
 
@@ -238,4 +238,4 @@ body {
 .hero__block {
   margin-left: 317px;
   height: 436px;
-}/*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index.css.map */
